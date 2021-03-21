@@ -11,13 +11,22 @@ import UIKit
 class ResultViewController: UIViewController {
 
     @IBOutlet weak var bmiLabel: UILabel!
+    @IBOutlet weak var viewBackground: UIImageView!
     @IBOutlet weak var adviceLabel: UILabel!
-    var bmiValue: String!
+    
+    // Initialize variables to store information from previous screen
+    var bmiValue: String?
+    var advice: String?
+    var color: UIColor?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        bmiLabel.text = bmiValue
+        
+        // Change the labels and background color
+        bmiLabel.text = bmiValue!
+        viewBackground.backgroundColor = color!
+        adviceLabel.text = advice!
+        
     }
 
     @IBAction func recalculatePressed(_ sender: UIButton) {

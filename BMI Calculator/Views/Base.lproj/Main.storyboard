@@ -208,8 +208,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="adviceLabel" destination="9IV-CT-mxw" id="4ha-r5-PND"/>
+                        <outlet property="adviceLabel" destination="9IV-CT-mxw" id="Tu2-1i-3he"/>
                         <outlet property="bmiLabel" destination="VU9-2W-Sd5" id="gs4-60-r1V"/>
+                        <outlet property="viewBackground" destination="r83-N3-Ash" id="LiC-4D-hkr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fn-rV-g4l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
